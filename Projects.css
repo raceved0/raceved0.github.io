@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;   
+}
+body{
+    font-family: century gothic, arial;
+    background-color: white;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin: 0%;
+}
+p{
+    position: relative;
+}
+
+/*Parallax Window*/
+ul{
+    padding: 0%;
+    height: auto;
+    width: 100%;
+}
+
+/*Parallax placemebt for background*/
+li{
+    overflow: hidden;
+    height: 550px;
+    position: relative;
+    list-style-type: none;
+}
+
+/*Parallax picture*/
+.parallax-background{
+    height: 900px;
+    width: 100%;
+    background-repeat:no-repeat;
+    margin 0;
+}
+.motionDetection{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.25), 
+        rgba(0, 0, 0, 0.25)
+    ),url('motionDetection.png');
+}
+.AR{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.25), 
+        rgba(0, 0, 0, 0.25)
+    ),url('AR.png');
+}
+.objectDetection{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.25),
+        rgba(0,0,0,0.25)
+    ),url('objectDetection.png')
+}
+
+/*Application description*/
+.content{
+    margin-left: 150px;
+    width: 965px;
+}
+
+/*Application name*/
+ul li .subcontent{
+    position: absolute;
+    top: 485px;
+    left: 130px;
+    font-family: century gothic, arial;
+    color: White;
+}
+h1{
+    margin: 0px 0px 0px 15px;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Links*/
+a{
+    text-decoration:none;
+    color: gray;
+}
