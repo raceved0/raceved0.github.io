@@ -17,9 +17,13 @@
     font-weight: bold;
     font-family: century gothic, arial;
 }
+
+/*Hover over page color*/
 #header a:hover{
     color: #ecf0f1;
 }
+
+/* Code.org letters */
 hr{
     border: 0;
     height: 1px;

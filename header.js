@@ -1,3 +1,4 @@
+/* Creates shadow under header */
 function onScrollEventHandler() {
     "use strict";
     var scrollPostion = window.pageYOffset;
@@ -15,7 +16,7 @@ if (window.addEventListener) {
     window.attachEvent('onscroll', onScrollEventHandler);
 }
 
-/*code.org Logo*/
+/* code.org Logo */
 function letter_Over(id) {
     "use strict";
     var id2 = id++,

@@ -4,3 +4,10 @@ html{
     min-height: 768px;
     height: 100%;
 }
+div hr {
+  	position: absolute;
+	left: 0;
+  	bottom: 0;
+	width: 100%;
+	margin: 0;
+}
