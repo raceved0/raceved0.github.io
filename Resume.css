@@ -4,6 +4,32 @@ html{
     min-height: 768px;
     height: 100%;
 }
+
+.main { 
+   	margin: auto;
+    width: 80%;
+	padding: 10px;
+}
+
+.head{
+	margin: auto;
+	width: 97%;
+	padding: 10px;
+	text-align: center;
+}
+
+.body{
+	margin: auto;
+	position:relative; 
+	top: 30px;
+	width: 93%;
+}
+
+iframe {
+	width: 93%; 
+	height:1151px;
+}
+
 div hr {
   	position: absolute;
 	left: 0;
