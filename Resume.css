@@ -22,12 +22,12 @@ html{
 	margin: auto;
 	position:relative; 
 	top: 30px;
-	width: 93%;
+	width: 100%;
 }
 
 iframe {
 	width: 93%; 
-	height:1151px;
+	height:1303px;
 }
 
 div hr {

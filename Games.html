@@ -2,34 +2,63 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
-        <link rel="shortcut icon" type="image/x-icon" src="/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="bodyTemplate.css">
-        <link rel="stylesheet" type="text/css" href="Games.css">
-        <script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
-        <div id="header"></div>
-        <link rel="stylesheet" type="text/css" href="header.css">
+		<link rel="stylesheet" type="text/css" href="Games.css">
+    	<div id="header"></div>
+    	<link rel="stylesheet" type="text/css" href="header.css">
+    	<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+
         <div id="header">
             <a href="https://code.org/" target="_blank">
-            		<img id=1 src="C.png" onmouseover="letter_Over(this.id)">
-            		<img id=2 src="C_Colored.png" onmouseout="letter_Out(this.id)">
-            		<img id=3 src="O.png" onmouseover="letter_Over(this.id)">
-            		<img id=4 src="O_Colored.png" onmouseout="letter_Out(this.id)">
-            		<img id=5 src="D.png" onmouseover="letter_Over(this.id)">
-            		<img id=6 src="D_Colored.png" onmouseout="letter_Out(this.id)"> 
-            		<img id=7 src="E.png" onmouseover="letter_Over(this.id)">
-            		<img id=8 src="E_Colored.png" onmouseout="letter_Out(this.id)">
-            	</a>
-            	<a href="index.html">Home </a>
-            	<a href="Projects.html">Projects </a>
-            	<a href="Games.html">Games </a>
-            	<a href="Resume.html">Resume </a>
-            	<a href="About.html">About This Site</a>
+            	<img id=1 src="C.png" onmouseover="letter_Over(this.id)">
+            	<img id=2 src="C_Colored.png" onmouseout="letter_Out(this.id)">
+            	<img id=3 src="O.png" onmouseover="letter_Over(this.id)">
+            	<img id=4 src="O_Colored.png" onmouseout="letter_Out(this.id)">
+            	<img id=5 src="D.png" onmouseover="letter_Over(this.id)">
+            	<img id=6 src="D_Colored.png" onmouseout="letter_Out(this.id)"> 
+            	<img id=7 src="E.png" onmouseover="letter_Over(this.id)">
+            	<img id=8 src="E_Colored.png" onmouseout="letter_Out(this.id)">
+            </a>
+        	<a href="index.html">Home </a>
+        	<a href="Projects.html">Projects </a>
+           	<a href="Games.html">Games </a>
+           	<a href="Resume.html">Resume </a>
+           	<a href="About.html">About This Site</a>
             <hr>
         </div>
         <script type="text/javascript" src="header.js"></script>
     </head>
     <body>
-        <br>
-        Coming Soon!
+        <ul class="parallax">
+            <li>
+                <div class="parallax-background FlappyBat"></div>
+            </li>
+        </ul>
+        <p><div class="content" align="justify">
+        	Flappy Bat is a clone app of the popular game Flappy Bird. It has Flappy Bird's aesthetics and same addictive
+        	qualities but with a few differences. You are able to win ribbons based on the achievement you've accomplished.
+        	Flappy Bat stays simple and to the true nature of the original game. 
+        	Click <a href="https://drive.google.com/file/d/0B9qGxwKddcTubmViM0ZwWlhhMFE/view?usp=sharing" target="_blank">here</a> to see a 
+        	video preview of Flappy Bat.
+        	
+        	<br><br>This game was created using Xcode with Swift as its programing language. The game also uses core data as the
+        	current database for highscores.
+        	It uses a few core frameworks embedded in Xcode along with Google's AdMob library for advertisement placement and presentation.
+        	The beautiful graphics were created by Jon W. Click <a href="https://www.peopleperhour.com/freelancer/jonboy/illustrator-character-and-mascot/106366?ref=provider" target="_blank"> 
+        	here </a>for his portfolio and how to contact for other projects. 
+        <br><br>
+            <table>
+                <tr><td>Platform:</td><td>iOS & Android</td>
+                <tr><td>Version: </td><td>0.1</td></tr>
+                <tr><td>Download: </td><td>Not Available</td></tr>
+                <tr><td>Screen Shots:</td><td>Not Available</td></tr>
+            </table>
+        </div></p>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="Paralax.js" type="text/javascript"></script>
+        <noscript>
+            
+        </noscript>
+        
     </body>
 </html>
