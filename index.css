@@ -20,6 +20,19 @@ body{
     transition: opacity 1.0s linear 0s;
 }
 
+#CSPictures{
+    opacity: 0;
+    -webkit-transition: opacity 1.0s linear 0s;
+    transition: opacity 1.0s linear 0s;
+}
+
+
+#CSPicturesBody{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
 #CSQuoteBody{
     width: 60%;
     margin: 0 auto;
